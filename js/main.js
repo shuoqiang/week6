@@ -4,8 +4,8 @@ function setup() {
     drawWindow();//call the function
 
     //http://www.colors.commutercreative.com/grid/
-    var x = 0;
-    var y = 0;
+    var x = 40;
+    var y = 40;
     var gridWidth = width-500;
     var x1,y1;
     for(var i=0; i<100; i++){
@@ -15,7 +15,7 @@ function setup() {
     //check if x is past the grid width
     if(x >gridWidth){
         //set the x back to the beinning
-        x =0;
+        x =40;
         //move y down
         y += 300;
     }//end if
